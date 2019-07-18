@@ -11,7 +11,7 @@ if (process.argv.length === 3) {
 	});
 	console.log(`Set ${username}'s password to \'ChangeMe123\'`);
 } else if (process.argv.length > 3) {
-	console.error('Error: To many arguments');
+	console.error('Error: Too many arguments');
 } else {
 	console.error('Error: Please specify an account name');
 }
